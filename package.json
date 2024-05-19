@@ -1,0 +1,13 @@
+{
+    "name": "product-preview-card-component-main",
+    "version": "1.0.0",
+    "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+    "main": "tailwind.config.js",
+    "scripts": {
+        "build": "npx tailwindcss -i tailwind.css -o style.css --minify",
+        "watch": "npx tailwindcss -i tailwind.css -o style.css -w --minify"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

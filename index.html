@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="
+https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
+" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<!--        -->
+
+<body class="bg-PrimaryCream flex flex-col justify-center items-center min-h-screen">
+    <div class="container bg-white rounded-md flex flex-col items-center justify-center">
+        <div class="container_img w-[300px]">
+            <img src="images/image-product-desktop.jpg" alt="Chanel" class="rounded-l-md desktop" id="desktop_img">
+            <img src="images/image-product-mobile.jpg" alt="Chanel" class="mobile rounded-t-md" id="mobile_img">
+        </div>
+        <div class="container__title p-6 pt-0 h-auto w-[300px] flex flex-col justify-center gap-3">
+            <h5 class="text-NeutralDarkBlue font-primary uppercase tracking-[5px] text-[12px] leading-tight mb-3 mt-3">Perfume</h5>
+            <h1 class="text-black font-secondary font-extrabold text-3xl  mb-3">Gabrielle Essence Eau De Parfum</h1>
+            <p class="text-NeutralDarkBlue text-sm font-primary mb-3">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div class="price flex w-full items-center gap-5 mb-3">
+                <div class="new_price text-PrimaryDarkCyan font-bold text-3xl font-secondary">$149.99</div>
+                <div class="old_price line-through text-NeutralDarkGrayishBlue text-sm font-extralight">$169.99</div>
+            </div>
+            <button class="bg-PrimaryDarkCyan cursor-pointer text-white w-full h-[40px] flex gap-3 font-primary rounded-lg font-semibold items-center justify-center hover:bg-NeutralDarkBlue"><span><i class="fa-solid fa-cart-shopping "></i></span>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <div class="attribution flex justify-end">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>Coded by <a href="https://www.linkedin.com/in/ay%C5%9Feg%C3%BCl-%C5%9Fim%C5%9Fek-073735300/" target="_blank">.....Ayşegül Şimşek</a>.
+    </div>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/js/all.min.js
+"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
